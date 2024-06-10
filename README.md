@@ -74,7 +74,3 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-This README provides a clear and concise description of the content and usage of the project, and guides the user through the steps necessary to configure and run the notebook.
