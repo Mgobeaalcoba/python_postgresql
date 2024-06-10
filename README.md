@@ -1,85 +1,84 @@
-Aquí tienes un ejemplo de un README para tu proyecto Jupyter Notebook:
+Here is an example of a README for your Jupyter Notebook project:
 
 ---
 
-# Conexión y Manipulación de PostgreSQL con Python
+# Connecting and Manipulating PostgreSQL with Python
 
-Este repositorio contiene un Jupyter Notebook con ejemplos de cómo conectar Python con PostgreSQL y cómo crear y manipular tablas en PostgreSQL utilizando Python.
+This repository contains a Jupyter Notebook with examples of how to connect Python with PostgreSQL and how to create and manipulate tables in PostgreSQL using Python.
 
-## Contenido
+## Content
 
-- **Conexión a PostgreSQL**: Ejemplos de cómo establecer una conexión con una base de datos PostgreSQL utilizando `psycopg2` y `SQLAlchemy`.
-- **Carga de Datos en DataFrame**: Cómo cargar datos desde PostgreSQL en un DataFrame de Pandas.
-- **Manipulación de Datos**: Ejemplos de manipulación de datos utilizando Pandas.
-- **Creación de Tablas en PostgreSQL**: Cómo crear nuevas tablas en PostgreSQL a partir de DataFrames manipulados.
-- **Gestión de Credenciales**: Uso de un archivo `.env` para manejar credenciales de manera segura.
+- **Connection to PostgreSQL**: Examples of how to establish a connection with a PostgreSQL database using `psycopg2` and `SQLAlchemy`.
+- **Loading Data into a DataFrame**: How to load data from PostgreSQL into a Pandas DataFrame.
+- **Data Manipulation**: Examples of data manipulation using Pandas.
+- **Creating Tables in PostgreSQL**: How to create new tables in PostgreSQL from manipulated DataFrames.
+- **Credential Management**: Using a `.env` file to manage credentials securely.
 
-## Requisitos
+## Requirements
 
-- Python 3.x
+-Python 3.x
 - Jupyter Notebook
 - Pandas
 - psycopg2
-- SQLAlchemy
+-SQLAlchemy
 - python-dotenv
 
-## Instalación
+## Facility
 
-1. Clona este repositorio:
+1. Clone this repository:
 
-   ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-   cd tu_repositorio
-   ```
+ ```bash
+ git clone https://github.com/Mgobeaalcoba/python_postgresql
+ ```
 
-2. Crea un entorno virtual e instala las dependencias:
+2. Create a virtual environment and install dependencies:
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # En Windows usa `venv\Scripts\activate`
-   pip install -r requirements.txt
-   ```
+ ```bash
+ python -m venv venv
+ source venv/bin/activate # On Windows use `venv\Scripts\activate`
+ pip install -r requirements.txt
+ ```
 
-3. Crea un archivo `.env` en el directorio raíz del proyecto con el siguiente contenido, reemplazando los valores con tus credenciales de PostgreSQL:
+3. Create a `.env` file in the project root directory with the following content, replacing the values ​​with your PostgreSQL credentials:
 
-   ```bash
-   POSTGRES_DB=nombre_base_de_datos
-   POSTGRES_USER=nombre_usuario
-   POSTGRES_PASSWORD=tu_contraseña
-   POSTGRES_HOST=localhost
-   POSTGRES_PORT=5432
-   ```
+ ```bash
+ POSTGRES_DB=database_name
+ POSTGRES_USER=user_name
+ POSTGRES_PASSWORD=your_password
+ POSTGRES_HOST=localhost
+ POSTGRES_PORT=5432
+ ```
 
-4. Inicia Jupyter Notebook:
+4. Start Jupyter Notebook:
 
-   ```bash
-   jupyter notebook
-   ```
+ ```bash
+ jupyter notebook
+ ```
 
-5. Abre el notebook `conexión de jupyter a postgres sql.ipynb` y sigue los ejemplos.
+5. Open the `conexión de jupyter a postgres sql.ipynb` notebook and follow the examples.
 
-## Uso
+## Use
 
-El notebook incluye ejemplos detallados sobre cómo:
+The notebook includes detailed examples on how to:
 
-- Conectar a una base de datos PostgreSQL.
-- Ejecutar consultas SQL y cargar los resultados en un DataFrame de Pandas.
-- Manipular los datos en el DataFrame.
-- Crear una nueva tabla en PostgreSQL y guardar los datos manipulados en ella.
+- Connect to a PostgreSQL database.
+- Execute SQL queries and load the results into a Pandas DataFrame.
+- Manipulate the data in the DataFrame.
+- Create a new table in PostgreSQL and save the manipulated data in it.
 
-## Notas
+## Grades
 
-- Asegúrate de que el archivo `.env` esté en tu `.gitignore` para evitar subir tus credenciales al repositorio.
-- Revisa y ajusta las configuraciones y credenciales según tu entorno de desarrollo y producción.
+- Make sure the `.env` file is in your `.gitignore` to avoid uploading your credentials to the repository.
+- Review and adjust configurations and credentials based on your development and production environment.
 
-## Contribuciones
+## Contributions
 
-¡Las contribuciones son bienvenidas! Siéntete libre de abrir un issue o enviar un pull request.
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-## Licencia
+## License
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
 
-Este README proporciona una descripción clara y concisa del contenido y uso del proyecto, y guía al usuario a través de los pasos necesarios para configurar y ejecutar el notebook.
+This README provides a clear and concise description of the content and usage of the project, and guides the user through the steps necessary to configure and run the notebook.
