@@ -1,7 +1,3 @@
-Here is an example of a README for your Jupyter Notebook project:
-
----
-
 # Connecting and Manipulating PostgreSQL with Python
 
 This repository contains a Jupyter Notebook with examples of how to connect Python with PostgreSQL and how to create and manipulate tables in PostgreSQL using Python.
