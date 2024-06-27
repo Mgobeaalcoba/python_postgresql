@@ -1,5 +1,7 @@
 # Connecting and Manipulating PostgreSQL with Python
 
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FMgobeaalcoba%2Fpython_postgresql&label=Visitors&countColor=%23263759)
+
 This repository contains a Jupyter Notebook with examples of how to connect Python with PostgreSQL and how to create and manipulate tables in PostgreSQL using Python.
 
 ## Content
